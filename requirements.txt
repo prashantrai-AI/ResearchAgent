@@ -4,5 +4,5 @@ python-dotenv==1.0.1
 requests==2.32.3
 scholarly==1.7.11
 openai==1.40.0
-ag2[openai]==0.14.1
+ag2[openai]==1.0.2
 
