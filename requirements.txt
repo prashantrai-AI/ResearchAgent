@@ -1,5 +1,8 @@
 streamlit==1.62.0
 pyautogen==0.10.0
+autogen==0.14.1
+autogen-agentchat==0.7.5
+autogen-core==0.7.5
 python-dotenv==1.2.3
 requests==2.34.2
 scholarly==1.7.11
