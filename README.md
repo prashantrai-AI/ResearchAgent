@@ -98,6 +98,31 @@ groq
 
 ---
 
+
+## 📦 Dependencies Render Deployment Instructions
+
+- Ensure requirements.txt has all dependencies listed above.
+
+- Add a runtime.txt file in the project root with:
+
+- Code
+- python-3.10.14
+- (This forces Render to use Python 3.10, compatible with Autogen + Groq.)
+
+- Commit and push changes to GitHub:
+
+- bash
+- git add requirements.txt README.md runtime.txt
+- git commit -m "Update requirements and runtime for Render"
+- git push origin main
+- Render will automatically redeploy using the latest commit.
+
+- Check Render dashboard → Logs to confirm dependencies installed successfully.
+
+-  Access your app at: https://virtual-research-assistant.onrender.com/
+
+---
+
 ## 🛠️ Future Improvements
 - Add support for multiple LLM providers  
 - Improve UI with filters (year, author, domain)  
