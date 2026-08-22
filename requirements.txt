@@ -1,8 +1,7 @@
-streamlit==1.37.0
+streamlit==1.62.0
 pyautogen==0.10.0
-python-dotenv==1.0.1
-requests==2.32.3
+python-dotenv==1.2.3
+requests==2.34.2
 scholarly==1.7.11
-openai==1.40.0
+openai==2.54.0
 ag2[openai]==1.0.2
-
