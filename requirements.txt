@@ -1,6 +1,8 @@
 streamlit
-python-dotenv
 autogen
-requests
-scholarly
 groq
+scholarly
+python-dotenv
+typing-extensions
+importlib-metadata
+requests

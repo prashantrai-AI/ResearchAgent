@@ -90,36 +90,38 @@ data_loader.py
 Add these to requirements.txt:
 
 streamlit
-python-dotenv
 autogen
-requests
+groq
 scholarly
-groq  
+python-dotenv
+typing-extensions
+importlib-metadata
+requests
 
 ---
 
 
 ## 📦 Dependencies Render Deployment Instructions
 
-- Ensure requirements.txt has all dependencies listed above.
+ Ensure requirements.txt has all dependencies listed above.
 
-- Add a runtime.txt file in the project root with:
+ Add a runtime.txt file in the project root with:
 
-- Code
-- python-3.10.14
-- (This forces Render to use Python 3.10, compatible with Autogen + Groq.)
+Code
+   python-3.10.14
+   (This forces Render to use Python 3.10, compatible with Autogen + Groq.)
 
-- Commit and push changes to GitHub:
+Commit and push changes to GitHub:
 
-- bash
-- git add requirements.txt README.md runtime.txt
-- git commit -m "Update requirements and runtime for Render"
-- git push origin main
-- Render will automatically redeploy using the latest commit.
+  bash
+  git add requirements.txt README.md runtime.txt
+  git commit -m "Update requirements and runtime for Render"
+  git push origin main
+  Render will automatically redeploy using the latest commit.
 
-- Check Render dashboard → Logs to confirm dependencies installed successfully.
+Check Render dashboard → Logs to confirm dependencies installed successfully.
 
--  Access your app at: https://virtual-research-assistant.onrender.com/
+  Access your app at: https://virtual-research-assistant.onrender.com/
 
 ---
 
