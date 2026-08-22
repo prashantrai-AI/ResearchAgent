@@ -38,7 +38,9 @@ print("DataLoader initialized successfully")
 query = st.text_input("Enter a research topic:")
 
 # When user clicks Search
-if st.button("Search"):
+if st.button("Search", key="search_button"):
+    st.write("✅ BUTTON CLICKED!")
+    print("SEARCH STARTED", flush=True)
 
     print("=" * 50)
     print("SEARCH STARTED")
