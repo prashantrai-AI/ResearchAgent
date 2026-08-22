@@ -58,6 +58,13 @@ The assistant will:
 
 ---
 
+## 🧩 Live Demo
+
+Deployed on Render: https://virtual-research-assistant.onrender.com/
+
+
+---
+
 ## 🧩 Code Overview
 app.py  
 - Loads environment variables  
@@ -82,12 +89,12 @@ data_loader.py
 ## 📦 Dependencies
 Add these to requirements.txt:
 
-streamlit  
-python-dotenv  
-requests  
-xmltodict  
-scholarly  
-autogen  
+streamlit
+python-dotenv
+autogen
+requests
+scholarly
+groq  
 
 ---
 
