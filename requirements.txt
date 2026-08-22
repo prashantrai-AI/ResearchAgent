@@ -1,8 +1,8 @@
-streamlit
-autogen
-groq
-scholarly
-python-dotenv
-typing-extensions
-importlib-metadata
-requests
+streamlit==1.37.0
+pyautogen==0.10.0
+python-dotenv==1.0.1
+requests==2.32.3
+scholarly==1.7.11
+openai==1.40.0
+ag2[openai]==0.14.1
+

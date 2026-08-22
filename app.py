@@ -12,15 +12,15 @@ print("ok")
 st.title("📚 Virtual Research Assistant")
 
 # Retrieve the API key from environment variables
-groq_api_key = os.getenv("GROQ_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Check if API key is set, else stop execution
-if not groq_api_key:
-    st.error("GROQ_API_KEY is missing. Please set it in your environment variables.")
+if not openai_api_key:
+    st.error("OPENAI_API_KEY is missing. Please set it in your environment variables.")
     st.stop()
 
 # Initialize AI Agents for summarization and analysis
-agents = ResearchAgents(groq_api_key)
+agents = ResearchAgents(openai_api_key)
 
 # Initialize DataLoader for fetching research papers
 data_loader = DataLoader()
