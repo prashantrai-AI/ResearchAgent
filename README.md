@@ -73,6 +73,9 @@ streamlit run app.py
 The app will open automatically in your browser at `http://localhost:8501`.
 
 ---
+## 🚀 Running the Application on Render
+
+https://researchagent-51hs.onrender.com/
 
 ## 🤖 Agent Workflow
 
